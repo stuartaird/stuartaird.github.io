@@ -1,0 +1,153 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  margin: 0vw 10vw;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+header {
+  min-height: 50px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #1c2f38;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d7d4cc;
+}
+
+#contact-group {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#profile-image {
+  margin: 10px auto 10px auto;
+  width: 8vh;
+  height: 8vh;
+  border: solid 0.5px;
+  border-radius: 50%;
+}
+
+.container {
+  margin: 0px 0px 20px 0px;
+  padding: 10px;
+}
+
+#contact-details-container {
+  border-radius: 10px;
+  background-color: #87a19f;
+}
+
+#contact-details {
+  padding: 15px 25px;
+  font-size: 0.9rem;
+  height: 100%;
+}
+
+#contact-details tr {
+  height: 30px;
+}
+
+#contact-details td {
+  width: 10%;
+}
+
+.heading {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 20px;
+  padding: 10px 20px;
+}
+
+#aboutme-heading {
+  background-color: #4d6772;
+  color: white;
+}
+
+#aboutme {
+  padding: 10px 20px;
+  font-size: 0.9em;
+  background-color: #b6b8b7;
+}
+
+#mywork-heading {
+  background-color: #4d6772;
+  color: white;
+}
+
+#mywork {
+  padding: 10px 0px;
+  background-color: #b6b8b7;
+  display: flex;
+  flex-flow: column wrap;
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  background-color: white;
+  border: solid 2px;
+  border-radius: 10px;
+  min-height: 16vh;
+  min-width: 18vw;
+  padding: 10px 5px;
+  margin: 20px;
+  font-size: 0.9em;
+  box-shadow: 10px 10px 20px 1px;
+}
+
+.project-details {
+  padding: 15px;
+  width: 100%;
+}
+
+.release-dates {
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: end;
+}
+
+p {
+  margin: 20px !important;
+}
+
+h4 {
+  margin: 20px !important;
+}
+
+@media all and (min-width: 820px) {
+  #profile-image {
+    width: 18vh;
+    height: 18vh;
+  }
+
+  .project-card {
+    height: auto;
+    width: 40%;
+    margin: 20px;
+  }
+
+  #mywork {
+    height: 50%;
+    width: 100%;
+    flex-flow: row wrap;
+  }
+
+  #contact-group {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  #contact-details-container {
+    width: 60%;
+  }
+}
